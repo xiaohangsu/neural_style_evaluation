@@ -1,7 +1,6 @@
-# Style Mixer Evaluation
-===================
+# Neural Style Evaluation
+A proposal to evaluate neural style image output.
 ## Pre-requisite
-===================
 ### 1. install [caffe](http://caffe.berkeleyvision.org/) in python3.5+ environment
 
 The default installation of caffe will install Python Language Python 2.7. </br>
@@ -21,7 +20,6 @@ The two examples is basicly the same. Those models and methodology are based on 
 
 
 ## Train
-===============
 The part is for style evaluation. Before you start evaluate style, you should train examples provided models. (scratch_models and imageNet models)
 
 ### 1. Download trainning Data using Script assemble\_data_python3.py
@@ -51,7 +49,6 @@ Usage: **python3 finetune\_flickr_style.py -h** for more details
 * Beware of batcth and iteration number. The total images number will be trainned is **batch * iteration**.
 
 ## Evaluation
-====================================
 ### using update_test.py
 Usage: **python3 update_test.py -with\_fileName**
 
